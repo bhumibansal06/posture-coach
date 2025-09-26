@@ -1,0 +1,1 @@
+self.__REACT_LOADABLE_MANIFEST="{\"index.tsx -> @/components/Dashboard\":{\"id\":\"index.tsx -> @/components/Dashboard\",\"files\":[\"static/chunks/components_Dashboard_tsx.js\"]},\"index.tsx -> @/components/WebcamFeed\":{\"id\":\"index.tsx -> @/components/WebcamFeed\",\"files\":[\"static/chunks/components_WebcamFeed_tsx.js\"]}}"
