@@ -3,7 +3,7 @@
 **Real-time posture monitoring and correction using webcam pose detection.**
 
 <!-- Replace the image link below with a banner or screenshot of your app -->
-![Project Banner](<img width="1366" height="636" alt="image" src="https://github.com/user-attachments/assets/7d73eb1b-280b-40c3-a458-090acea6c94c" />
+![Project Banner](path/to/<img width="1366" height="636" alt="image" src="https://github.com/user-attachments/assets/7d73eb1b-280b-40c3-a458-090acea6c94c" />
 )
 
 ---
