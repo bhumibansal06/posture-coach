@@ -57,7 +57,7 @@ Open your browser at http://localhost:3000
 
 ## 📦 Deployment
 
-This project is deployed on Netlify: [Live Demo](https://<your-netlify-url>.netlify.app/)
+This project is deployed on Netlify: [Live Demo](https://posturecoach.netlify.app/)
 
 Optional: For full-stack deployment or local containerized development, Docker can be used:
 
