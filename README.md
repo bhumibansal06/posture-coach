@@ -3,7 +3,7 @@
 **Real-time posture monitoring and correction using webcam pose detection.**
 
 <!-- Replace the image link below with a banner or screenshot of your app -->
-![Project Banner](path/to/<img width="1366" height="636" alt="image" src="https://github.com/user-attachments/assets/7d73eb1b-280b-40c3-a458-090acea6c94c" />
+![Project Banner](<img width="1366" height="636" alt="image" src="https://github.com/user-attachments/assets/7d73eb1b-280b-40c3-a458-090acea6c94c" />
 )
 
 ---
@@ -27,7 +27,6 @@
 8. [Testing](#testing)  
 9. [Future Work](#future-work)  
 10. [Contributing](#contributing)  
-11. [License](#license)
 
 ---
 
@@ -52,20 +51,7 @@ Posture Coach is a **full-stack application** that helps users maintain correct 
 
 ---
 
-## 🏗 Architecture
-
-Frontend (React + TypeScript)
- ├─ Pages
- ├─ Components
- └─ Services (API calls)
-
-Backend (Node.js + Express)
- ├─ Controllers (Posture evaluation)
- ├─ Routes (API endpoints)
- └─ Services (Pose logic, database)
-
-Database (Optional future)
- └─ User posture history, metrics
+![Architecture Diagram](<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/2f22318c-55d8-4310-9aee-0cc6c61a1748" />)
  
 ---
 
