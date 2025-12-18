@@ -2,15 +2,13 @@
 
 **Real-time posture monitoring and correction using webcam pose detection.**
 
-<!-- Replace the image link below with a banner or screenshot of your app -->
-![Project Banner](<img width="1366" height="636" alt="image" src="https://github.com/user-attachments/assets/7d73eb1b-280b-40c3-a458-090acea6c94c" />
-)
+Project Interface
+<img width="1366" height="636" alt="image" src="https://github.com/user-attachments/assets/7d73eb1b-280b-40c3-a458-090acea6c94c" />
 
 ---
 
 ## 🚀 Live Demo
 
-<!-- Replace with your deployed frontend URL -->
 [Try the live demo here](https://posturecoach.netlify.app/)
 
 ---
@@ -51,7 +49,8 @@ Posture Coach is a **full-stack application** that helps users maintain correct 
 
 ---
 
-![Architecture Diagram](<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/2f22318c-55d8-4310-9aee-0cc6c61a1748" />)
+Architecture Diagram
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/2f22318c-55d8-4310-9aee-0cc6c61a1748" />
  
 ---
 
