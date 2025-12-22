@@ -30,12 +30,12 @@ Project Interface
 
 ## 📌 Project Overview
 
-Posture Coach is a **full-stack application** that helps users achieve a feedback on their posture while working or studying. Using webcam-based pose detection, it **provides real-time feedback** and visual alerts to provide real-time feedback on posture
+Posture Coach is a **full-stack application** that helps users receive real-time feedback on their posture while working or studying.
 
 **Use Cases:**
 - Office workers
 - Students studying for long hours
-- Fitness enthusiasts looking for posture correction
+- fitness enthusiasts interested in posture awareness
 
 ---
 
@@ -89,11 +89,11 @@ npm start
 
 Visit http://localhost:3000 to view the app.
 
-| Endpoint       | Method | Description                           |
-| -------------- | ------ | ------------------------------------- |
-| `/api/posture` | POST   | Evaluate current posture from webcam  |
-| `/api/history` | GET    | Fetch posture session history (demo)  |
-| `/api/alert`   | POST   | Trigger alert if posture is incorrect |
+| Endpoint        | Method | Description                                  |
+| --------------- | ------ | -------------------------------------------- |
+| `/api/history`  | POST   | Store posture metrics (demo, in-memory)      |
+| `/api/history`  | GET    | Fetch posture session history (demo)         |
+
 
 Request Example:
 
@@ -103,9 +103,9 @@ Body: { postureStatus, angles, timestamp }
 
 Response Example:
 {
-  "posture": "good",
-  "angle": 175,
-  "alert": false
+  "postureStatus": "good",
+  "angles": { "neck": 175 },
+  "timestamp": 1712345678
 }
 ```
 
