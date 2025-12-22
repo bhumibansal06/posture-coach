@@ -1,6 +1,6 @@
 # Posture Coach
 
-**Real-time posture monitoring and correction using webcam pose detection.**
+**Real-time posture monitoring and feedback using webcam pose detection.**
 
 Project Interface
 <img width="1366" height="636" alt="image" src="https://github.com/user-attachments/assets/7d73eb1b-280b-40c3-a458-090acea6c94c" />
@@ -30,7 +30,7 @@ Project Interface
 
 ## 📌 Project Overview
 
-Posture Coach is a **full-stack application** that helps users maintain correct posture while working or studying. Using webcam-based pose detection, it **provides real-time feedback** and visual alerts to prevent slouching or bad posture habits.
+Posture Coach is a **full-stack application** that helps users achieve a feedback on their posture while working or studying. Using webcam-based pose detection, it **provides real-time feedback** and visual alerts to provide real-time feedback on posture
 
 **Use Cases:**
 - Office workers
@@ -42,9 +42,9 @@ Posture Coach is a **full-stack application** that helps users maintain correct 
 ## ✨ Features
 
 - Real-time posture detection using webcam  
-- Visual cues and alerts for slouching  
+- Visual posture feedback indicators 
 - Frontend dashboard with posture status  
-- Backend logging for user posture history  
+- Demo-level posture history storage using an in-memory backend
 - Optional future features: mobile support, metrics tracking, historical charts  
 
 ---
@@ -58,7 +58,7 @@ Architecture Diagram
 
 - **Frontend:** React, TypeScript, Tailwind CSS  
 - **Backend:** Node.js, Express  
-- **Pose Detection:** TensorFlow.js / MediaPipe  
+- **Pose Detection:** TensorFlow.js (pose-detection models)
 - **Deployment:** Netlify (frontend), [Backend deployment TBD]  
 - **Version Control:** Git / GitHub  
 
@@ -92,16 +92,14 @@ Visit http://localhost:3000 to view the app.
 | Endpoint       | Method | Description                           |
 | -------------- | ------ | ------------------------------------- |
 | `/api/posture` | POST   | Evaluate current posture from webcam  |
-| `/api/history` | GET    | Fetch user posture history            |
+| `/api/history` | GET    | Fetch posture session history (demo)  |
 | `/api/alert`   | POST   | Trigger alert if posture is incorrect |
 
 Request Example:
 
 ```bash
-POST /api/posture
-{
-  "imageData": "<base64-encoded image or video frame>"
-}
+POST /api/history
+Body: { postureStatus, angles, timestamp }
 
 Response Example:
 {
@@ -113,11 +111,8 @@ Response Example:
 
 🧪 Testing
 
-Frontend: React Testing Library for components
-
-Backend: Jest + Supertest for APIs
-
-E2E: Cypress for full workflow testing
+Testing: Manual testing during development
+Automated testing planned as future work)
 
 🔮 Future Work
 
